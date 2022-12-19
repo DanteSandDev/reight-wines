@@ -1,18 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import logo from "../assets/images/logoLetrasBlancas.webp"
-import location from "../assets/icons/maps.svg"
-import phone from "../assets/icons/telephone.svg"
-import wsp from "../assets/icons/wa.svg"
-import mail from "../assets/icons/mail.svg"
-import cace from "../assets/icons/cace.webp"
-import ssl from "../assets/icons/descarga.webp"
-import dFiscal from "../assets/icons/dataFiscal.png"
-import mPago from "../assets/icons/mercadopago.webp"
-import visa from "../assets/icons/visa.webp"
-import mc from "../assets/icons/mastercard.webp"
-import amex from "../assets/icons/american.webp"
+import logo from "../../assets/images/logoLetrasBlancas.webp"
+import location from "../../assets/icons/maps.svg"
+import phone from "../../assets/icons/telephone.svg"
+import wsp from "../../assets/icons/wa.svg"
+import mail from "../../assets/icons/mail.svg"
+import cace from "../../assets/icons/cace.webp"
+import ssl from "../../assets/icons/descarga.webp"
+import dFiscal from "../../assets/icons/dataFiscal.png"
+import mPago from "../../assets/icons/mercadopago.webp"
+import visa from "../../assets/icons/visa.webp"
+import mc from "../../assets/icons/mastercard.webp"
+import amex from "../../assets/icons/american.webp"
 import SocialsBar from './SocialsBar'
 
 

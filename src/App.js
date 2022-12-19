@@ -1,6 +1,5 @@
 import React from "react"
-import Footer from "./components/Footer";
-import SocialsBar from "./components/SocialsBar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 

@@ -2,10 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 
 
-import Fb from "../assets/icons/facebook.svg"
-import Ig from "../assets/icons/instagram.svg"
-import LinkedIn from "../assets/icons/linkedin.svg"
-import Twitter from "../assets/icons/twitter.svg"
+import Fb from "../../assets/icons/facebook.svg"
+import Ig from "../../assets/icons/instagram.svg"
+import LinkedIn from "../../assets/icons/linkedin.svg"
+import Twitter from "../../assets/icons/twitter.svg"
 
 const SocialsContainer = styled.div`
     background-color: var(--yellow);
