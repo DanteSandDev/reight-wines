@@ -71,25 +71,23 @@ const initialState = false;
 
 const CardList = () => {
 
-    const [cardsModalOpen, setCardsModalOpen] = useState(initialState);
+    const [modalOpen, setModalOpen] = useState(initialState);
 
-    const openCardsModal = () => setCardsModalOpen(true);
+    // const openCardsModal = () => setModalOpen(true);
 
-    const closeCardsModal = () => setCardsModalOpen(false);
+    // const closeCardsModal = () => setCardsModalOpen(false);
 
 return (
     <CardsSection>
-        <CardsModal cardsModalOpen={cardsModalOpen} closeCardsModal={closeCardsModal}></CardsModal>
+        <CardsModal vinos={vinos} modalOpen={modalOpen} setModalOpen={setModalOpen}></CardsModal>
+        
         {vinos.map((vino) => (
-        <Card key={vino.id} vinos={vino} openCardsModal={openCardsModal} ></Card>))}
+        <Card key={vino.id} vinos={vino} modalOpen={modalOpen} setModalOpen={setModalOpen} ></Card>))}
     </CardsSection>
 )
 }
 
 export default CardList
-
-
-
 
 
 const CardsSection = styled.section`
