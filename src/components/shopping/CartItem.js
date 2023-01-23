@@ -59,14 +59,14 @@ const ItemCarrito = styled.div`
   padding-right: 10%;
 
   @media screen and (max-width: 768px){
+    height: 70vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 3px;
 }
 
   `
-
 
  const Image = styled.div`
   width: 25%;
@@ -74,6 +74,7 @@ const ItemCarrito = styled.div`
   
   @media screen and (max-width: 768px){
    padding-right: 30%;
+   
 }
 
   @media screen and (max-width: 576px){
@@ -91,15 +92,21 @@ const Text = styled.p`
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-  
-`
 
+    @media screen and (max-width: 768px){
+    height: 20%;
+}
+`
 
   const Nombre = styled.h3`
   padding-top: 25px;
   color: var(--dark);
   font-family: 'Carter One', cursive;
   font-size: 21px;
+
+  @media screen and (max-width: 768px){
+    padding-top: 40px;
+  }
   `
 
   const Tipo = styled.p`
@@ -107,7 +114,9 @@ const Text = styled.p`
   font-family:'Satisfy', cursive;
   font-size: 18px;
   font-weight: 200;
+
   `
+
   const Precio = styled.p`
   font-family:'EB Garamond', serif;
   font-size: 18px;

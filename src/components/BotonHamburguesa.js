@@ -20,8 +20,8 @@ export default BotonHamburguesa
 
 const Hamburguesa = styled.div`
   .nav-icon-7{
-    width: 35px;
-    height: 30px;
+    width: 30px;
+    height: 25px;
     margin: 10px 10px;
     position: relative;
     cursor: pointer;

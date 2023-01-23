@@ -92,7 +92,7 @@ height: 200px;
   `
 
 const FraseContainer = styled.div`
-width: 98%;
+width: 95%;
 height: 35%;
 background: rgb(251, 243, 232, 51%);
 border-radius: 10px;
