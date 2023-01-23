@@ -12,8 +12,11 @@ import { Link } from "react-router-dom"
 
 const ShoppingCart = () => {
 
-  const {clearCart, state} = useContext(ProductsContext);
+  const {clearCart, state, cart} = useContext(ProductsContext);
 
+    const costoTotal = cart.reduce((acumulador, object) => {
+    return acumulador + object.precio * object.quantity;
+  }, 0);
 
   return (
     <CarritoContainer>
@@ -32,10 +35,13 @@ const ShoppingCart = () => {
               ? (<Link to="/bebidas" className="modCart" style={{padding:"50px"}}>
                   <ButtonComprando ><GiCheckMark style={{position:"relative", bottom: "2px"}} /> Seguir Comprando </ButtonComprando>
                 </Link>)
-              : (<ButtonsContainer>
+              : (<>
+                  <div>Total: ${costoTotal}</div>
+                <ButtonsContainer>
                   <ButtonLimpiarCarro onClick={() => clearCart()}>Limpiar Carrito</ButtonLimpiarCarro>  
                   <ButtonFinalizarCompra>Finalizar Compra</ButtonFinalizarCompra>
-                </ButtonsContainer>)
+                </ButtonsContainer>
+                  </>)
             }
           </ContainerText>
         </FondoBlanco>
