@@ -71,11 +71,10 @@ const ItemCarrito = styled.div`
   padding-right: 10%;
 
   @media screen and (max-width: 768px){
-    height: 70vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3px;
+    gap: 5px;
 }
 @media screen and (max-width: 576px){
   position: relative;
