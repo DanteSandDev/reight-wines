@@ -4,7 +4,6 @@ import styled, { keyframes } from 'styled-components'
 import CartItem from "./CartItem"
 import {HiOutlineShoppingCart} from 'react-icons/hi';
 import {GiCheckMark} from 'react-icons/gi';
-import { useState } from 'react';
 import { Link } from "react-router-dom"
 
 
@@ -99,13 +98,13 @@ const Titulo = styled.div`
     padding: 8%;
   }
 
-h1{
-  text-align: center;
-  color: var(--orange75);
-  font-size: 2.8rem;
-  font-weight: 600;
-  font-family:'EB Garamond', serif;
-}
+  h1{
+    text-align: center;
+    color: var(--orange75);
+    font-size: 2.8rem;
+    font-weight: 600;
+    font-family:'EB Garamond', serif;
+  }
 `
 const ContainerText = styled.div`
   display: flex;
@@ -159,6 +158,7 @@ const ButtonsContainer = styled.div`
   gap: 20px;
   padding-top: 5px;
   margin-bottom: 25px;
+
   @media screen and (min-width: 1200px){
     gap: 150px;
     
@@ -216,64 +216,3 @@ const ButtonFinalizarCompra = styled.button`
   display: flex;}
   }
 `
-
-// const CounterContainer = styled.div`
-//   height: 20%;
-//   text-align: center;
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: center;
-//   gap: 0.3px;
-//   padding-top: 15px;
-// `;
-
-/******CODIGO ANTERIOR ********/
-// const ShoppingCart = () => {
-
-  // const {clearCart, state} = useContext(ProductsContext);
-  
-  //   // useEffect(() => {
-  //   //   updateState()
-  //   // }, [])
-    
-  
-  //   /*  return (
-  //   <section>
-  //       <div>
-  //         <div>
-  //           <h1>Carrito de compras</h1>
-  //         </div>
-  //         <div>
-  //           {!state.cart[0] ? "No tienes productos en tu carrito" : state.cart.map((item) => <CartItem key={item.id} item={item} />)}
-  //         <div>
-  //           <button onClick={()=>clearCart()}>Limpiar Carrito</button>
-  
-  //           <button>Finalizar Compra</button>
-  //         </div>
-  //       </div>
-  //       </div>
-  //     </section>
-  //   )
-  // */
-  //   return (
-  //      <CarritoContainer>
-  //       <FondoBlanco>
-  //          <Titulo>
-  //          <h1>Carrito de compras</h1>
-  //          </Titulo>
-  //          <div>
-  //          {!state.cart[0] ? "No tienes productos en tu carrito" : state.cart.map((item) => <CartItem key={item.id} item={item} />)}
-  //          </div>
-  
-  //        <ButtonsContainer>
-  //           <ButtonLimpiarCarro onClick={clearCart}>Limpiar Carrito</ButtonLimpiarCarro>
-  
-  //            <ButtonFinalizarCompra>Finalizar Compra</ButtonFinalizarCompra>
-  //          </ButtonsContainer>
-  
-  //     </FondoBlanco>
-  //      </CarritoContainer>
-  //    )
-  // }
-  
-  // export default ShoppingCart

@@ -91,6 +91,7 @@
   ],
   "cart": [
     {
+<<<<<<< HEAD
       "id": 1,
       "nombre": "Sexy Fish",
       "tipo": "Malbec",
@@ -112,6 +113,17 @@
       "colorPrecio": "#7A7A78",
       "bgColorBoton": "#7A7A78",
       "info": "Un vino delicado en boca, con una acidez refrescante y aromas a frutas rojas y dejos florales al paladar.",
+=======
+      "id": 7,
+      "nombre": "G. H. Mumm Cordon",
+      "tipo": "Champagne Rouge Brut",
+      "precio": 12800,
+      "image": "ghMumm.webp",
+      "bgColor": "#f5e8afef",
+      "colorPrecio": "#7A7A78",
+      "bgColorBoton": "#7A7A78",
+      "info": "Es delicado y complejo, donde las frutas de la uva se entremezclan con suaves notas de frutos secos.",
+>>>>>>> 106659b3c3f99c71ee32989969a0f9acb634d7c0
       "quantity": 1
     },
     {
@@ -125,6 +137,33 @@
       "bgColorBoton": "#7A7A78",
       "info": " Se destacan aromas frutales a naranja dulce y melocotón, acompañado por notas de mazapán y nuez.",
       "quantity": 1
+<<<<<<< HEAD
+=======
+    },
+    {
+      "id": 8,
+      "nombre": "Atemporal G. Elevage",
+      "tipo": "Champagne Brut Nature",
+      "precio": 15600,
+      "image": "altaVista.webp",
+      "bgColor": "#dac8adef",
+      "colorPrecio": "#7A7A78",
+      "bgColorBoton": "#7A7A78",
+      "info": "Es aromático y pleno, dejando una fresca sensación final de fruta. ",
+      "quantity": 1
+    },
+    {
+      "id": 1,
+      "nombre": "Sexy Fish",
+      "tipo": "Malbec",
+      "precio": 2100,
+      "image": "malbec.webp",
+      "bgColor": "#ffefe1ef;",
+      "colorPrecio": "#737272",
+      "bgColorBoton": "#737272",
+      "info": "Un vino con presencia de taninos maduros, con dejos dulces de vainilla y chocolate.",
+      "quantity": 1
+>>>>>>> 106659b3c3f99c71ee32989969a0f9acb634d7c0
     }
   ]
 }

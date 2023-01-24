@@ -92,7 +92,7 @@ height: 200px;
   `
 
 const FraseContainer = styled.div`
-width: 98%;
+width: 95%;
 height: 35%;
 background: rgb(251, 243, 232, 51%);
 border-radius: 10px;
@@ -243,8 +243,8 @@ border-radius: 10px;
       imagen: `${seba}` ,
       nombre: "Sebastian Müller" ,
       info: "Web Developer" ,
-      linkedin: "https://ar.linkedin.com/" ,
-      github: "https://github.com/"
+      linkedin: "https://www.linkedin.com/in/sebastian-alejandro-muller" ,
+      github: "https://github.com/Sebastian-Muller"
     },
     {
       id: "4",

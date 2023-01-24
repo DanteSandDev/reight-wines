@@ -90,6 +90,31 @@ FIN ESTILOS OWL-CAROUSEL  */
   .active{
     text-decoration: underline;
   }
+  
+  @media (min-width:768px){
+    .navItem{
+      padding: 25px 0;
+      
+    }
+  }
+/********* Estilos Error ***********/
+@media (min-width:768px){
+  .navItem.error{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 50%;
+  }
+}
+
+@media (min-width:576px){
+  .navItem.error{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 50%;
+  }
+}
 
 /********* Estilos Cart y ModalCart *****/
 .modCart {

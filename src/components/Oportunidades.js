@@ -216,7 +216,7 @@ const ButtAddProduct= styled.button`
   font-size: 15px;
   text-align: center;
   text-transform: uppercase;
-  width:70%;
+  width:80%;
   box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 12px 0 rgba(0,0,0,0.19);
 
   @media screen and (min-width: 1024px){
