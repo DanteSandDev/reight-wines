@@ -87,9 +87,18 @@ const Titulo = styled.div`
   display: flex;
   justify-content: center;
   border-bottom: 1px solid grey;
-  padding: 3.8%;
+  padding: 4%;
   position: relative;
   bottom: 15px;
+
+  @media screen and (max-width: 768px){
+    padding: 6%;
+  }
+
+  @media screen and (max-width: 576px){
+    padding: 8%;
+  }
+
 h1{
   text-align: center;
   color: var(--orange75);
@@ -102,6 +111,19 @@ const ContainerText = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  p{
+    color: var(--dark);
+    font-family:'Satisfy', cursive;
+    font-size: 20px;
+    position: relative;
+    top:20px;
+    
+  @media (max-width: 576px){
+    padding: 30px;
+    text-align: center;
+  }
+}
 `
 const ButtonComprando = styled.button`
   padding: 5px;
@@ -139,6 +161,7 @@ const ButtonsContainer = styled.div`
   margin-bottom: 25px;
   @media screen and (min-width: 1200px){
     gap: 150px;
+    
   }
 `
 const ButtonLimpiarCarro = styled.button` width: 200px;

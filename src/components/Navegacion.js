@@ -121,14 +121,14 @@ const IconosContenedor = styled.div`
 
   i{
     color: var(--beige);
-    font-size: 2.8rem;
+    font-size: 2rem;
 
     @media screen and (min-width: 768px){
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
 
     @media screen and (min-width: 1200px){
-      font-size: 2.8rem;
+      font-size: 2.3rem;
     }
   }
 

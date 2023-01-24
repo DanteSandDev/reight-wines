@@ -89,5 +89,42 @@
       "info": "Es aromático y pleno, dejando una fresca sensación final de fruta. "
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": 1,
+      "nombre": "Sexy Fish",
+      "tipo": "Malbec",
+      "precio": 2100,
+      "image": "malbec.webp",
+      "bgColor": "#ffefe1ef;",
+      "colorPrecio": "#737272",
+      "bgColorBoton": "#737272",
+      "info": "Un vino con presencia de taninos maduros, con dejos dulces de vainilla y chocolate.",
+      "quantity": 3
+    },
+    {
+      "id": 2,
+      "nombre": "Pedriel",
+      "tipo": "Rosado de Malbec",
+      "precio": 3600,
+      "image": "rosado.webp",
+      "bgColor": "#f4f3f1ef",
+      "colorPrecio": "#7A7A78",
+      "bgColorBoton": "#7A7A78",
+      "info": "Un vino delicado en boca, con una acidez refrescante y aromas a frutas rojas y dejos florales al paladar.",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Jonnie Walker",
+      "tipo": "Double Black Whisky",
+      "precio": 11300,
+      "image": "jonniewalker.webp",
+      "bgColor": "#fae0a9ef",
+      "colorPrecio": "#7A7A78",
+      "bgColorBoton": "#7A7A78",
+      "info": " Se destacan aromas frutales a naranja dulce y melocotón, acompañado por notas de mazapán y nuez.",
+      "quantity": 1
+    }
+  ]
 }
