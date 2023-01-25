@@ -89,5 +89,30 @@
       "info": "Es aromático y pleno, dejando una fresca sensación final de fruta. "
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": 3,
+      "nombre": "Antigal Uno",
+      "tipo": "Sauvignon Blanc",
+      "precio": 3000,
+      "image": "sauvBlanc.webp",
+      "bgColor": "#ece9aeef",
+      "colorPrecio": "#7A7A78",
+      "bgColorBoton": "#7A7A78",
+      "info": "Fresco, con leve sensación de dulzura, con aromas tropicales y cítricos, de volumen y estructura media.",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Jonnie Walker",
+      "tipo": "Double Black Whisky",
+      "precio": 11300,
+      "image": "jonniewalker.webp",
+      "bgColor": "#fae0a9ef",
+      "colorPrecio": "#7A7A78",
+      "bgColorBoton": "#7A7A78",
+      "info": " Se destacan aromas frutales a naranja dulce y melocotón, acompañado por notas de mazapán y nuez.",
+      "quantity": 1
+    }
+  ]
 }
