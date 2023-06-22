@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Reight Wines - Ecommerce
+[![ReactJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://www.w3.org/TR/html52/)
+[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://www.ecma-international.org/ecma-262/6.0/)
+[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Wine E-commerce, where you'll find a wide selection of wines from different regions and varieties. Our goal is to provide you with a unique experience while exploring and acquiring quality wines to enjoy on any occasion.
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+- [HTML](https://www.w3.org/TR/html52/): Markup language for structuring and presenting web content.
+- [CSS](https://www.w3.org/Style/CSS/): Style sheet language for styling and designing web pages.
+- [JavaScript](https://www.ecma-international.org/ecma-262/6.0/): Programming language for client-side logic and functionality.
+- [ReactJS](https://reactjs.org/): JavaScript library for building user interfaces.
+- [Node.js](https://nodejs.org/): JavaScript runtime environment for server-side execution.
 
-### `npm start`
+## E-commerce Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Wine catalog: Explore our extensive wine catalog.
+- Product details: Get detailed information about each wine.
+- Shopping cart: Add your favorite wines to the cart and securely complete the checkout process.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- User profile: Manage your personal information, shipping addresses, and communication preferences.
+## Reight Wines - Demo
+<video src="./src/assets/images/readmeMedia/reight-wines-democompressed.mp4" controls title="Reight Wines Demo"></video>
 
-### `npm test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<image src="./src/assets/images/readmeMedia/Reight Wines - productsList.png" alt="Reight Wines Demo">
+<image src="./src/assets/images/readmeMedia/Reight Wines - productCard.png" alt="Reight Wines Demo">
+<image src="./src/assets/images/readmeMedia/Reight Wines - emptyCart.png" alt="Reight Wines Demo">
+<image src="./src/assets/images/readmeMedia/Reight Wines - fullCart.png" alt="Reight Wines Demo">
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository: `git clone https://github.com/DanteSandDev/reight-wines.git`
+2. Navigate to the project directory: `cd your-project`
+3. Install the dependencies: `npm install`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Run the application: `npm start`
+2. Open your browser and visit: `http://localhost:3000`
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+If you would like to contribute to this project, please follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b my-branch`
+3. Make your changes and commit: `git commit -am 'Description of changes'`
+4. Push the branch: `git push origin my-branch`
+5. Submit a Pull Request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
