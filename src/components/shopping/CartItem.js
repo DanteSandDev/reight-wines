@@ -71,11 +71,10 @@ const ItemCarrito = styled.div`
   padding-right: 10%;
 
   @media screen and (max-width: 768px){
-    height: 70vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3px;
+    gap: 5px;
 }
 @media screen and (max-width: 576px){
   position: relative;
@@ -130,31 +129,34 @@ const Text = styled.div`
 
   @media screen and (max-width: 768px){
    width: 100%;
-}
+  }
   `
 
   const ContentTwo = styled.div`
     display: flex;
     position: relative;
-    right: 100px;
+    right: 80px;
+    bottom: 10px;
+
 
    @media screen and (max-width: 768px){
-   padding-left: 10%;
+   padding-left: 25%;
    gap:45px
-}
-@media screen and (max-width: 576px){
-  position: relative;
-  top: 30px;
-}
+  }
+  @media screen and (max-width: 576px){
+    position: relative;
+    top: 30px;
+    right: 40%;
+  }
   `
   const Cantidad = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 35px;
   position: relative;
-  left: 75px;
-  padding: 15px;
-  margin: 10px;
-  gap: 5px;
+  left: 40px;
+  bottom: 10px;
 
   @media screen and (max-width: 576px){
     align-items: center;
